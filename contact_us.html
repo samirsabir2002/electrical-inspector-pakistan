@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+<link rel="stylesheet" href="CSS/main.CSS">
+    <link rel="icon" href="logo.png" type="image/png" sizes="32X32">
+</head>
+ <script>
+    function myfunction(){
+        alert("Form is Submitted");
+    }
+ </script>
+<body>
+    <div>
+
+        <header>
+            <img src="Image/logo.png" alt="Electrical Inspector Pakistan" class="logo">
+            <nav class="nav-bar">
+                <a href="home.html">Home</a>
+                <a href="Inspections.html">Inspections</a>
+                <a href="Certification.html">Certification</a>
+                <a href="Index.html">About US</a>
+                <a href="Contact_Us.html">Contact Us</a>
+            </nav>
+        </header>
+        </div>
+        <div class="contactus">
+            <h1>Contact Form</h1>
+            <form>
+            Name:
+            <br>
+            <input type="text" name="name_1" id="name" pattern="[A-Za-Z]{4,100}" title="John" placeholder="enter your name" autofous />
+            <br>
+            <br>
+             Email:<br>
+             <input   type="email" name="email" id="email" pattern="[A-Za-Z0._]{3,15}[@][A-Za-Z]{4,10}{.}{com}{3}" title="John@gmail.com"
+             placeholder="enter your email" autocomplete="off" />
+             <br>
+             <br>
+             Message:
+            <br><textarea id="Message" name="Message" placeholder="Write something.." style="height:200px"></textarea>
+             <input onclick="myfunction()" type="submit" value="submit">
+           </form>
+           
+  
+        </div>
+<footer>
+    <p>503, AL Ameera Center, Near Passport Office Saddar, Karachi, Sindh, Pakistan.<br>
+        Ph: +92-21-35661100, Cell: +92-300-8228223 <br> info@ei.com.pk , www.ei.com.pk <br>
+        &copy; 2020-21</p>
+
+
+
+</footer>
+    </body>
+</html>
